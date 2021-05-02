@@ -4,16 +4,35 @@ body {
 }
 
 h1 {
+  font-size: 5.625em;
   margin: 0;
   text-align: center;
   font-family: "Sacramento", cursive;
+  color: #66bfbf;
 }
 h2 {
+
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: bold;
+  line-height: 2;
+
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+
+hr {
+
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 5%;
+
 }
 
 .top-container {
@@ -21,11 +40,13 @@ h3 {
   position: relative;
   padding-top: 100px;
 }
-.middle-container {
-  background-color: #eaf6f6;
+span:hover{
+  color: teal;
+  text-decoration: underline;
+  transition: color 0.5s;
 }
-.bottom-container {
-  background-color: #eaf6f6;
+.profile-img{
+  padding-top: 50px;
 }
 .mountain {
   width: 900px;
@@ -34,11 +55,61 @@ h3 {
 
 .top-cloud {
   position: absolute;
-  top: 50px;
-  right: 400px;
+  top: 60px;
+  right: 450px;
 }
 .bottom-cloud {
   position: absolute;
-  bottom: 500px;
-  left: 250px;
+  bottom: 600px;
+  left: 350px;
+}
+.profile{
+  padding-bottom: 50px;
+}
+/* Skills - Section*/
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  line-height: 2;
+  padding-bottom: 100px;
+
+}
+.skill-img{
+  width: 35%;
+  margin-right: 30px;
+  float: left;
+}
+.second-skills-img{
+  float: right;
+  width: 25%;
+  padding-right: 30px;
+
+}
+/*btns*/
+.btn {
+  border: 1px solid #11999E;
+  background-color: #eaf6f6;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: #11999E;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+}
+/*footer*/
+.bottom-container {
+  margin-bottom: 0px;
+  padding: 50px 50px 50px 50px;
+  background-color:#66bfbf;
+}
+.contact-me{
+  padding-bottom: 40px;
+}
+.icons{
+  margin-right: 60px;
+  padding-left: 80px;
+  width: 34px;
+  height: 34px;
 }
