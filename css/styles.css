@@ -10,14 +10,13 @@ h1 {
   font-family: "Sacramento", cursive;
   color: #66bfbf;
 }
-h2 {
 
+h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   color: #66bfbf;
   font-weight: bold;
   line-height: 2;
-
 }
 
 h3 {
@@ -26,28 +25,34 @@ h3 {
 }
 
 hr {
-
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
   border-color: grey;
   width: 5%;
-
 }
+p {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+/*header - portion*/
 
 .top-container {
   background-color: #eaf6f6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 150px;
 }
-span:hover{
+
+span:hover {
   color: teal;
   text-decoration: underline;
   transition: color 0.5s;
 }
-.profile-img{
+
+.profile-img {
   padding-top: 50px;
 }
+
 .mountain {
   width: 900px;
   height: 600px;
@@ -58,56 +63,82 @@ span:hover{
   top: 60px;
   right: 450px;
 }
+
 .bottom-cloud {
   position: absolute;
   bottom: 600px;
   left: 350px;
 }
-.profile{
+
+.profile {
   padding-bottom: 50px;
 }
+
 /* Skills - Section*/
-.skill-row{
+.skill-row {
   width: 50%;
   text-align: left;
   margin: auto;
   line-height: 2;
   padding-bottom: 100px;
-
 }
-.skill-img{
+
+.skill-img {
   width: 35%;
   margin-right: 30px;
   float: left;
 }
-.second-skills-img{
+
+.second-skills-img {
   float: right;
   width: 25%;
   padding-right: 30px;
-
 }
+
 /*btns*/
 .btn {
-  border: 1px solid #11999E;
+  border: 1px solid #11999e;
   background-color: #eaf6f6;
   padding: 5px 10px;
   font-size: 16px;
   font-family: "Montserrat";
-  color: #11999E;
+  color: #11999e;
   font-weight: bold;
   cursor: pointer;
   margin: 10px;
 }
+.discover {
+  font-family: "Poppins";
+  font-weight: bolder;
+  border-style: none;
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+.join-me {
+  font-family: "Poppins";
+  font-weight: bold;
+  border-style: none;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+.top:hover {
+  text-decoration: underline;
+}
+
 /*footer*/
 .bottom-container {
   margin-bottom: 0px;
   padding: 50px 50px 50px 50px;
-  background-color:#66bfbf;
+  background-color: #66bfbf;
 }
-.contact-me{
+
+.contact-me {
   padding-bottom: 40px;
 }
-.icons{
+
+.icons {
   margin-right: 60px;
   padding-left: 80px;
   width: 34px;
